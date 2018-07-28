@@ -1,4 +1,6 @@
 """
+Dashuai Wang
+
 A simple MNIST classifier which displays summaries in TensorBoard.
 This is an unimpressive MNIST model, but it is a good example of using
 tf.name_scope to make a graph legible in the TensorBoard graph explorer, and of
@@ -24,14 +26,13 @@ image_num = 3000
 
 DIR = "/home/dart/PycharmProjects/test/"
 
-
 sess = tf.Session()
 
 # Import data
 embedding = tf.Variable(tf.stack(mnist.test.images[:image_num]), trainable=False, name='embedding')
 
 
-#
+#git
 def variable_summaries(var):
     """
     Attach a lot of summaries to a Tensor (for TensorBoard visualization).
