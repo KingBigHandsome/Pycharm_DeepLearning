@@ -32,7 +32,6 @@ sess = tf.Session()
 embedding = tf.Variable(tf.stack(mnist.test.images[:image_num]), trainable=False, name='embedding')
 
 
-#git
 def variable_summaries(var):
     """
     Attach a lot of summaries to a Tensor (for TensorBoard visualization).
